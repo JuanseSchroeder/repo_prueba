@@ -5,16 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ENTREGA 2</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="scss/estilo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     </head>
 <body>
+    <!-- ------------------------------------------BARRA DE NAVEGACION----------------------------------- -->
     <header id="arriba">
         <nav>
-            <ul class="flex__navbar">
+            <ul class="nav__barra">
             <li>
             <a href="index.html">HOME</a></li>
             <li><a href="tienda.html">TIENDA</a>  </li>
@@ -24,82 +26,171 @@
             </ul>
         </nav>
     </header>
-    <main class="grid__principal">
-        <div>CATEOGRIA 1</div>
-        <ul class="grid__items">
-            <li>ITEM 
-                <div>DESCRIPCION </div>
+    <!-- ----------------------------------------TELEFONOS----------------------------------------- -->
+    <main class="tienda">
+        <div id="telefono">SMARTPHONES</div>
+        <ul class="row" >
+            <li class="col"> X - Basic
+                <div><img src="./img/Tel-1.png" alt="Imagen del X - Basic">
+                    <ul>
+                        <li>Pantalla: 6.2"</li>
+                        <li>Almacenamiento: 32GB</li>
+                        <li>Camara: 12MP 12 MP 64 MP</li>
+                        <li>Precio: $500</li>
+                    </ul> 
+                    <button type="button" class="btn btn-dark">COMPRAR</button>  
+                </div>
             </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
+            <li class="col"> X - Plus
+                <div><img src="./img/tel-2.png" alt="Imagen del X - Plus">
+                    <ul>
+                        <li>Pantalla:6.7"</li>
+                        <li>Almacenamiento: 64GB</li>
+                        <li>Camara: 14MP 14MP 64MP</li>
+                        <li>Precio: $700</li>
+                    </ul> 
+                    <button type="button" class="btn btn-dark">COMPRAR</button>  
+                </div>
             </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
+            </ul>
+            <ul class="row" >
+            <li class="col"> X - Plus Ultra
+                <div><img src="./img/tel-3.png" alt="Imagen del X - Plus Ultra">
+                <ul>
+                    <li>Pantalla:6.7"</li>
+                    <li>Almacenamiento: 64GB</li>
+                    <li>Camara: 14MP 14MP 64MP</li>
+                    <li>Precio: $700</li>
+                </ul> 
+                <button type="button" class="btn btn-dark">COMPRAR</button></div>
             </li>
-            <li>ITEM 
-                <div>DESCRIPCION</div>
+            <li class="col"> X - Pen
+                <div><img src="./img/tel-4.png" alt="Imagen del X - Pen">
+                <ul>
+                    <li>Pantalla:6.7"</li>
+                    <li>Almacenamiento: 64GB</li>
+                    <li>Camara: 14MP 14MP 64MP</li>
+                    <li>Precio: $700</li>
+                </ul>     
+                    <button type="button" class="btn btn-dark">COMPRAR</button></div>
             </li>
         </ul>
-    <div>CATEOGRIA 2</div>
-        <ul class="grid__items">
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION</div>
-            </li>
+        <!-- ---------------------------------------LAPTOPS---------------------------------------- -->
+    <div id="laptop">LAPTOPS</div>
+    <ul class="row" >
+        <li class="col"> X - Basic
+            <div><img src="./img/laptop1.jpg" alt="Imagen del X - Basic">
+                <ul>
+                    <li>Pantalla: 17"</li>
+                    <li>Almacenamiento: 1TB</li>
+                    <li>Procesaodr: Intel Core i7</li>
+                    <li>Precio: $500</li>
+                </ul> 
+                <button type="button" class="btn btn-dark">COMPRAR</button></div>
+            </div>
+        </li>
+        <li class="col"> X - Plus
+            <div><img src="./img/laptop2.png" alt="Imagen del X - Plus">
+                <ul>
+                    <li>Pantalla: 17"</li>
+                    <li>Almacenamiento: 1TB</li>
+                    <li>Procesaodr: Intel Core i7</li>
+                    <li>Precio: $500</li>
+                </ul> 
+                <button type="button" class="btn btn-dark">COMPRAR</button></div></div>
+        </li>
         </ul>
-    <div>CATEOGRIA 3</div>
-        <ul class="grid__items">
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION</div>
-            </li>
+        <ul class="row" >
+        <li class="col"> X - Plus Ultra
+            <div><img src="./img/laptop3.png" alt="Imagen del X - Plus Ultra">
+                <ul>
+                    <li>Pantalla: 17"</li>
+                    <li>Almacenamiento: 1TB</li>
+                    <li>Procesaodr: Intel Core i7</li>
+                    <li>Precio: $500</li>
+                </ul> 
+                <button type="button" class="btn btn-dark">COMPRAR</button></div> </div>
+        </li>
+        <li class="col"> X - Pen
+            <div><img src="./img/laptop4.png" alt="Imagen del X - Pen">
+                <ul>
+                    <li>Pantalla: 17"</li>
+                    <li>Almacenamiento: 1TB</li>
+                    <li>Procesaodr: Intel Core i7</li>
+                    <li>Precio: $500</li>
+                </ul> 
+                <button type="button" class="btn btn-dark">COMPRAR</button></div></div>
+        </li>
+    </ul>
+    <!-- ------------------------------------------RELOJES--------------------------------------------- -->
+    <div id="reloj">RELOJES</div>
+    <ul class="row" >
+        <li class="col"> X - Basic
+            <div><img src="./img/Tel-1.png" alt="Imagen del X - Basic">
+                <ul>
+                    <li>Pantalla: 6.2"</li>
+                    <li>Almacenamiento: 32GB</li>
+                    <li>Camara: 12MP 12 MP 64 MP</li>
+                    <li>Precio: $500</li>
+                </ul> 
+                <p>COMPRAR</p>   
+            </div>
+        </li>
+        <li class="col"> X - Plus
+            <div><img src="./img/tel-2.png" alt="Imagen del X - Plus">
+                DESCRIPCION </div>
+        </li>
         </ul>
-    <div>CATEOGRIA 4</div>
-        <ul class="grid__items">
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION </div>
-            </li>
-            <li>ITEM 
-                <div>DESCRIPCION</div>
-            </li>
-        </ul>   
+        <ul class="row" >
+        <li class="col"> X - Plus Ultra
+            <div><img src="./img/tel-3.png" alt="Imagen del X - Plus Ultra">DESCRIPCION </div>
+        </li>
+        <li class="col"> X - Pen
+            <div><img src="./img/tel-4.png" alt="Imagen del X - Pen">DESCRIPCION</div>
+        </li>
+    </ul>
+    <!-- ----------------------------------------TELEVISORES------------------------------- -->
+    <div id="tv">TV</div>
+    <ul class="row" >
+        <li class="col"> X - Basic
+            <div><img src="./img/Tel-1.png" alt="Imagen del X - Basic">
+                <ul>
+                    <li>Pantalla: 6.2"</li>
+                    <li>Almacenamiento: 32GB</li>
+                    <li>Camara: 12MP 12 MP 64 MP</li>
+                    <li>Precio: $500</li>
+                </ul> 
+            </div>
+        </li>
+        <li class="col"> X - Plus
+            <div><img src="./img/tel-2.png" alt="Imagen del X - Plus">
+                DESCRIPCION </div>
+        </li>
+        </ul>
+        <ul class="row" >
+        <li class="col"> X - Plus Ultra
+            <div><img src="./img/tel-3.png" alt="Imagen del X - Plus Ultra">DESCRIPCION </div>
+        </li>
+        <li class="col"> X - Pen
+            <div><img src="./img/tel-4.png" alt="Imagen del X - Pen">DESCRIPCION</div>
+        </li>
+    </ul>   
     </main>
+    <!-- -----------------------------------------FOOTER------------------------------------------- -->
     <footer>
-        <ul class="flex__footer">
-            <li class="flex__footer__tienda">
+        <ul class="footer__barra">
+            <li class="footer__barra__tienda">
                 <a href="tienda.html">TIENDA</a>
             </li>
             <li>
             <a href="ofertas.html">OFERTAS</a></li>
-            <li class="flex__footer__carrito"><a href="carrito.html">CARRITO</a>
+            <li class="footer__barra__carrito"><a href="carrito.html">CARRITO</a>
             </li>
-            <li class="novedades"><a href="index.html#arriba"> NOVEDADES</a></li>
-            <li class="flex__footer__contacto"><i class="fas fa-phone"></i> Contacto:  +54 223 4152648</li>
-            <li class="flex__footer__insta"><a href=""><i class="fab fa-instagram"></i>-Instagram</a></li>
-            <li class="flex__footer__face"><a href=""><i class="fab fa-facebook-square"></i>-Facebook</li>
-            <li class="flex__footer__twitter"><a href=""><i class="fab fa-twitter-square"></i></a>-Twitter</li>
+            <li class="novedades"><a href="#arriba"> NOVEDADES</a></li>
+            <li class="footer__barra__contacto"><i class="fas fa-phone"></i> Contacto:  +54 223 4152648</li>
+            <li class="footer__barra__insta"><a href=""><i class="fab fa-instagram"></i>-Instagram</a></li>
+            <li class="footer__barra__face"><a href=""><i class="fab fa-facebook-square"></i>-Facebook</a></li>
+            <li class="footer__barra__twitter"><a href=""><i class="fab fa-twitter-square"></i>-Twitter</a></li>
         </ul>
     </footer>
 </body>

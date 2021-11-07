@@ -5,16 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ENTREGA 2</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="scss/estilo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
     </head>
 <body>
+    <!-- ---------------------------------BARRA DE NAVEGACION --------------------------------------- -->
     <header id="arriba">
         <nav>
-            <ul class="flex__navbar">
+            <ul class="nav__barra">
             <li>
             <a href="index.html">HOME</a></li>
             <li><a href="tienda.html">TIENDA</a>  </li>
@@ -24,11 +26,13 @@
             </ul>
         </nav>
     </header>
+    <!-- ----------------------------CARRITO---------------------------------------------- -->
     <main>
         <fieldset class="carrito">
             <div>
                 TUS PRODUCTOS:
             </div>
+            <!-- -------------------------------PRODUCTOS---------------------------- -->
                 <ul>
                     <li>p1</li>
                     <li>p2</li>
@@ -36,35 +40,30 @@
                     <li>p4</li>
                     <li>p5</li>
                 </ul>
+                <!-- -------------------------IMPORTE FINAL----NECESARIO JAVA SCRIP PARA HACERLO FUNCIONAR--------- -->
             <div>Total: $ xxx</div>
             <div>
                 <input type="submit" value="Finalizar Compra" >
                 <input type="reset" value="Vaciar el Carrito" >
             </div>
-            <p class="carrito_animacion"><i class="fas fa-shopping-cart"></i></p>
         </fieldset>
         
     </main>
+    <!-- -------------------------------------FOOTER----------------------------------------------- -->
     <footer>
-        <ul class="flex__footer">
-            <li class="flex__footer__tienda">
+        <ul class="footer__barra">
+            <li class="footer__barra__tienda">
                 <a href="tienda.html">TIENDA</a>
             </li>
             <li>
-                <a href="ofertas.html">OFERTAS</a>
+            <a href="ofertas.html">OFERTAS</a></li>
+            <li class="footer__barra__carrito"><a href="carrito.html">CARRITO</a>
             </li>
-            <li class="flex__footer__carrito">
-                <a href="carrito.html">CARRITO</a>
-            </li>
-            <li class="novedades">
-                <a href="index.html#arriba"> NOVEDADES</a>
-            </li>
-            <li class="flex__footer__contacto">
-                <i class="fas fa-phone"></i> Contacto:  +54 223 4152648
-            </li>
-            <li class="flex__footer__insta"><a href=""><i class="fab fa-instagram"></i>-Instagram</a></li>
-            <li class="flex__footer__face"><a href=""><i class="fab fa-facebook-square"></i>-Facebook</li>
-            <li class="flex__footer__twitter"><a href=""><i class="fab fa-twitter-square"></i></a>-Twitter</li>
+            <li class="novedades"><a href="#arriba"> NOVEDADES</a></li>
+            <li class="footer__barra__contacto"><i class="fas fa-phone"></i> Contacto:  +54 223 4152648</li>
+            <li class="footer__barra__insta"><a href=""><i class="fab fa-instagram"></i>-Instagram</a></li>
+            <li class="footer__barra__face"><a href=""><i class="fab fa-facebook-square"></i>-Facebook</a></li>
+            <li class="footer__barra__twitter"><a href=""><i class="fab fa-twitter-square"></i>-Twitter</a></li>
         </ul>
     </footer>
 </body>

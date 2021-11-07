@@ -1,0 +1,575 @@
+/* Colores 
+Gris Claro :#a0a1a1
+Negro: #171717 
+Gris Oscuro: #202124 */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #202124;
+}
+
+/* -------------------------------------------BARRA DE NAVEGACION-------------------------------------------------- */
+.nav__barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  font-family: "Orbitron", sans-serif;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: fixed;
+  z-index: 9999;
+  height: 2rem;
+  width: 100%;
+}
+
+.nav__barra li {
+  list-style: none;
+  border-radius: 0.2rem;
+}
+
+.nav__barra a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__barra li:hover {
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+
+/* ------------------------------------------------------IMAGEN PRINCIPAL---------------------------------------------  */
+.main__img_1 {
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-color: white;
+  background-color: white;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.main__img_1 div {
+  background-image: url("../img/imgl.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 470px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.main__img_1 p {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+  top: 100px;
+  right: 250px;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.main__img_1 ul {
+  text-align: center;
+}
+
+.main__img_1 li {
+  display: inline-block;
+  color: black;
+  font-size: 5rem;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  top: 310px;
+  left: 450px;
+}
+
+.main__img_1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  font-size: medium;
+  padding: 5px;
+  position: relative;
+  top: 50px;
+  right: 220px;
+}
+
+/* -------------------------------------------productos--------------------------------------------------------------- */
+.section_productos {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+  padding-bottom: 15rem;
+}
+
+.section_productos h2 {
+  padding: 150px;
+  font-size: 3rem;
+}
+
+.section_productos li {
+  display: inline-block;
+  font-size: large;
+}
+
+.section_productos a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  background-color: black;
+}
+
+.section_productos_telefono {
+  background-image: url("../img/imgb2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
+
+.section_productos_telefono:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.section_productos_tv {
+  background-image: url("../img/imgb4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  margin: 50px;
+}
+
+.section_productos_tv:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.section_productos_laptop {
+  background-image: url("../img/imgb1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
+
+.section_productos_laptop:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.section_productos_reloj {
+  background-image: url("../img/imgb3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+}
+
+.section_productos_reloj:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+/*----------------------------------------------------------------- CONSULTA------------------------------------------------- */
+.fieldset_consulta {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(red), to(black));
+  background-image: linear-gradient(to bottom, black, red, black);
+}
+
+.fieldset_consulta_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fieldset_consulta_info label {
+  padding-left: 5rem;
+  position: relative;
+}
+
+.fieldset_consulta_info input {
+  margin-left: 1rem;
+}
+
+.fieldset_consulta_producto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.fieldset_consulta_motivo {
+  display: -ms-grid;
+  display: grid;
+  padding: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.fieldset_consulta_motivo section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+}
+
+.fieldset_consulta_texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fieldset_consulta_redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fieldset_consulta_boton input {
+  width: 10rem;
+  margin: 1rem;
+}
+
+input {
+  width: 100px;
+  height: 20px;
+}
+
+input:focus {
+  border: red;
+}
+
+.fieldset_consulta {
+  font-family: "Orbitron", sans-serif;
+}
+
+.fieldset_consulta legend {
+  padding: 2.5rem;
+}
+
+/* -----------------------------------------------------------QUIENES SOMOS -----------------------------------------------------*/
+.section_nosotros {
+  font-family: "Orbitron", sans-serif;
+  text-transform: uppercase;
+  background-color: #a0a1a1;
+  text-align: center;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: white;
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.section_nosotros h2 {
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.section_nosotros p {
+  text-align: left;
+  padding: 3rem;
+}
+
+/* -----------------------------------------------------------------TIENDA ----------------------------------------------------*/
+.tienda {
+  padding-top: 3rem;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  background-color: #202124;
+}
+
+.tienda div {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#202124), color-stop(red), to(#202124));
+  background-image: linear-gradient(#202124, red, #202124);
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.tienda ul {
+  margin-right: 1.5rem;
+}
+
+.tienda ul li {
+  background-color: #202124;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  list-style: none;
+}
+
+.tienda ul li div {
+  background-color: white;
+  background-image: none;
+  border-radius: 1rem;
+}
+
+.tienda ul li ul li {
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+  list-style: circle;
+  text-align: left;
+}
+
+/*-------------------------------------------------------------- OFERTAS ----------------------------------------------------------*/
+.grid__ofertas {
+  background-color: black;
+  font-family: "Orbitron", sans-serif;
+}
+
+.grid__ofertas div {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.grid__ofertas h2 {
+  background-color: #a0a1a1;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 0rem;
+}
+
+.grid__ofertas h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 4rem;
+  padding-top: 4rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(90%), to(#171717));
+  background-image: linear-gradient(red, 90%, #171717);
+}
+
+.grid__ofertas li {
+  font-size: 2rem;
+  list-style: none;
+}
+
+.grid__ofertas__org {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: purple;
+}
+
+/*--------------------------------------------------------- CARRITO --------------------------------------------------------------*/
+.carrito {
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  background-image: radial-gradient(red, #171717);
+}
+
+.carrito li {
+  list-style: numbers;
+  padding-top: 2rem;
+  font-size: 1rem;
+}
+
+.carrito_animacion {
+  padding-top: 1rem;
+  -webkit-animation-name: carrito;
+          animation-name: carrito;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  color: white;
+  position: relative;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  width: 100%;
+}
+
+.carrito input {
+  margin: 1rem;
+  width: 10rem;
+  font-size: .8rem;
+}
+
+.carrito div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem;
+}
+
+/* --------------------------------------------------------------------FOOTER---------------------------------------------------- */
+.footer__barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  height: 4rem;
+  color: white;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Orbitron", sans-serif;
+  padding: 0.5rem;
+  line-height: 1.5rem;
+}
+
+.footer__barra li {
+  list-style: none;
+}
+
+.footer__barra a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__barra__tienda {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.footer__barra__carrito {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.footer__barra__ofertas {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.footer__barra__contacto {
+  -webkit-box-ordinal-group: 9;
+      -ms-flex-order: 8;
+          order: 8;
+}
+
+.footer__barra__insta {
+  -webkit-box-ordinal-group: 7;
+      -ms-flex-order: 6;
+          order: 6;
+}
+
+.footer__barra__face {
+  -webkit-box-ordinal-group: 8;
+      -ms-flex-order: 7;
+          order: 7;
+}
+
+.footer__barra__twitter {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
+.footer__barra__novedades {
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+/*# sourceMappingURL=estilo.css.map */
